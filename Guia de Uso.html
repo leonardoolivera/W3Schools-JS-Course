@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia de Uso do GitHub com VSCode</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Guia de Uso do GitHub com Visual Studio Code</h1>
+
+    <h2>1. Instalar o Git e o VSCode</h2>
+    <p>Baixe e instale o Git <a href="https://git-scm.com/downloads" target="_blank">aqui</a>.<br>
+    Baixe e instale o VSCode <a href="https://code.visualstudio.com/download" target="_blank">aqui</a>.</p>
+
+    <h2>2. Configurar o Git no VSCode</h2>
+    <ol>
+        <li>Abra o VSCode.</li>
+        <li>Abra o terminal integrado (View > Terminal ou Ctrl + `).</li>
+        <li>Configure seu nome de usuário e e-mail do Git:</li>
+        <pre><code>git config --global user.name "Seu Nome"
+git config --global user.email "seuemail@exemplo.com"</code></pre>
+    </ol>
+
+    <h2>3. Criar uma conta no GitHub</h2>
+    <p>Visite <a href="https://github.com" target="_blank">github.com</a> e siga os passos para criar sua conta e verificar seu e-mail.</p>
+
+    <h2>4. Criar um novo repositório no GitHub</h2>
+    <ol>
+        <li>Logue na sua conta do GitHub.</li>
+        <li>Clique em "New" na seção de repositórios.</li>
+        <li>Preencha os detalhes do repositório.</li>
+        <li>Escolha se será público ou privado e marque a opção para criar um README inicial.</li>
+        <li>Clique em "Create repository".</li>
+    </ol>
+
+    <h2>5. Clonar o repositório no VSCode</h2>
+    <ol>
+        <li>Copie o URL do repositório no GitHub.</li>
+        <li>No VSCode, abra a Command Palette (Ctrl + Shift + P).</li>
+        <li>Digite "Git: Clone" e cole o URL quando solicitado.</li>
+        <li>Selecione onde o repositório deve ser clonado no seu computador.</li>
+    </ol>
+
+    <h2>6. Fazer alterações e commitar</h2>
+    <ol>
+        <li>Faça alterações nos arquivos no VSCode.</li>
+        <li>Salve as alterações nos arquivos no VSCode.</li>
+        <li>Abra a aba de Source Control (ícone de branches no lado esquerdo).</li>
+        <li>Adicione os arquivos alterados à staging area clicando no sinal de "+".</li>
+        <li>Digite uma mensagem de commit no campo "Message" e clique no ícone de "check" para commitar.</li>
+    </ol>
+
+    <h2>7. Enviar as alterações para o GitHub</h2>
+    <p>Clique no ícone de "synchronize changes" para fazer push das alterações para o GitHub.</p>
+
+    <h2>8. Gerenciar branches e Pull Requests</h2>
+    <ol>
+        <li>Para criar um novo branch, abra a Command Palette e digite "Git: Create Branch".</li>
+        <li>Para alternar entre branches, clique no nome do branch na parte inferior e selecione o branch desejado.</li>
+        <li>Para abrir um Pull Request, vá para o GitHub, acesse o repositório, clique em "Pull requests" > "New pull request", escolha o branch e siga os passos para criar o PR.</li>
+    </ol>
+
+    <h2>9. Mesclar um Pull Request no GitHub</h2>
+    <p>No GitHub, vá para a página do pull request, clique em "Merge pull request" e confirme.</p>
+</body>
+</html>
