@@ -16,3 +16,15 @@ function foraMim() {
     document.getElementById("mouseOverOut").textContent = "Saiu de mim"
 }
 
+function contaLetras() {
+    let nome = document.getElementById("meuInput").value;
+    
+    let nomeTamanho = nome.length;
+
+    alert(`O seu nome tem ${nomeTamanho} letras`);
+
+    alert(`function contaLetras() {
+    let nome = document.getElementById("meuInput").value;
+    let nomeTamanho = nome.length;
+    alert(\`O seu nome tem \${nomeTamanho} letras`);
+}
