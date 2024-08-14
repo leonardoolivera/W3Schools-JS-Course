@@ -19,14 +19,17 @@ function fibo() {
         list_fibo.forEach(element => {
             if ((element % 2) == 0) {
                 soma += element
-            }
+            }asdd
         }
         )
         return alert(soma);
-    }
+    }asd
     somarFibo()
-
-    
-
 }
+
+    function soma () {
+
+    }
 fibo()
+
+p

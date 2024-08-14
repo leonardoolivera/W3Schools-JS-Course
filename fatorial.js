@@ -7,7 +7,5 @@ function calcular() {
         incremento --;
 
     }
-
     alert(numberFat)
-    
 }
